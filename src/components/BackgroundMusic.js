@@ -28,7 +28,7 @@ export default function BackgroundMusic() {
         document.addEventListener('click', interactionHandlerRef.current);
         document.addEventListener('touchstart', interactionHandlerRef.current);
       });
-    }, 3000); // 5000ms = 5 seconds
+    }, 3000); // 3000ms = 3 seconds
 
     return () => {
       // Cleanup
@@ -50,3 +50,5 @@ export default function BackgroundMusic() {
     />
   );
 }
+
+
