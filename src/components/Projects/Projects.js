@@ -8,6 +8,9 @@ import CRUD from "../../Assets/Projects/CRUD.png";
 import P5 from "../../Assets/Projects/P5.png";
 import AI from "../../Assets/Projects/AI Desktop Assistant.jpeg";
 import Codeditor from "../../Assets/Projects/Codeditor.png";
+import resumebuilder from "../../Assets/Projects/resumebuilder.png";
+import strapi from "../../Assets/Projects/strapi.png";
+
 
 function Projects() {
   return (
@@ -66,7 +69,7 @@ function Projects() {
               imgPath={AI}
               isBlog={false}
               title="AI Desktop Assistant"
-              description="An AI desktop assistant is an intelligent software program that runs on a computer and helps users perform various tasks like opening applications, searching information, managing files, setting reminders, and answering questions using artificial intelligence. It can interact through text or voice commands, understand natural language, automate repetitive tasks, and sometimes learn user preferences over time to offer personalized support. AI desktop assistants make daily computer usage faster, easier, and more efficient by acting like a smart personal helper."
+              description="The AI Desktop Assistant is a smart virtual assistant designed to run on desktop systems, helping users with tasks like reminders, web searches, opening apps, voice commands, and more."
               ghLink="https://github.com/kimgayatri/AI-Desktop-Assistant.git"
             />
           </Col>
@@ -76,8 +79,27 @@ function Projects() {
               imgPath={Carbon}
               isBlog={false}
               title="Carbon Footprint Calculator"
-              description="A carbon footprint calculator is a tool that estimates the amount of carbon dioxide (CO₂) and other greenhouse gases a person, organization, or activity produces based on their daily habits, such as travel, energy use, food consumption, and shopping. By answering a few questions, users can see how their lifestyle impacts the environment and get suggestions on how to reduce their emissions. It helps raise awareness and encourages more eco-friendly choices to fight climate change."
+              description="The Carbon Footprint Calculator is an AI-based web tool that helps users estimate their daily carbon emissions based on activities like travel, energy usage, and food consumption."
               ghLink="https://github.com/kimgayatri/Carbon-Footprint-Calculator-App.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resumebuilder}
+              isBlog={false}
+              title="AI-Powered Resume Builder"
+              description="The AI-Powered Resume Builder is a smart and user-friendly website that helps users create professional resumes effortlessly. The platform also supports saving, editing, and downloading resumes in various formats. It's ideal for students, job seekers, and professionals looking for a quick and efficient resume-building tool."
+              ghLink="https://github.com/kimgayatri/AI-Powered-Resume-Builder.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={strapi}
+              isBlog={false}
+              title="AI Resume Builder(Strapi_Backend)"
+              description="It is a powerful backend dashboard built using Strapi CMS. It allows admins to manage user data, resume entries, and AI-generated content efficiently."
+              ghLink="https://github.com/kimgayatri/ai-resume-builder-strapi-admin.git"
             />
           </Col>
         </Row>
