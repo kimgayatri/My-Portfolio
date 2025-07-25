@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Java, C# and .net </b>
+                <b className="purple"> Java, DSA, Python, DBMS, Full Stack </b>
               </i>
               <br />
               <br />
